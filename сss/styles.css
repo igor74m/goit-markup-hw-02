@@ -209,6 +209,11 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.03em;
 }
+.filter-list .filter-btn.current {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--background-color);
