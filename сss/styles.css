@@ -114,6 +114,11 @@ text-decoration: none;
       text-align: center;
       letter-spacing: 0.06em;
   }
+  .modal-open-btn:hover,
+  .modal-open-btn:focus {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+  }
      .visually-hidden {
        position: absolute;
        white-space: nowrap;
@@ -209,7 +214,20 @@ text-decoration: none;
   color: var(--background-color);
   background-color: var(--accent-color);
 }
-   
+.card-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.card-list .text {
+  color: var(--color);
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1,9;
+    letter-spacing: 0.03em;
+}
 
 
 
